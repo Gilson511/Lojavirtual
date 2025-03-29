@@ -218,7 +218,7 @@ dd a {
 
     .parte1 {
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 62px;
+        margin-left: 120px;
         padding-top: 20px;
     }
 
@@ -257,7 +257,7 @@ dd a {
 }
 
 
-@media (max-width: 426px) {
+@media (min-width:200px) and (max-width: 426px) {
 
     .container .titulo{
         margin-left: 0 !important;
@@ -291,9 +291,10 @@ dd a {
 
     .parte1 {
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 40px;
+        margin-left: 60px;
         padding-top: 20px;
     }
+
 
     .area_rodape {
         display: flex;
